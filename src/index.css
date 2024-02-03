@@ -1,9 +1,11 @@
 body * {
-  border: 1px red solid;
+  /* border: 1px red solid; */
 }
 
 body {
-  margin: 0;
+  margin: 10px 0px 10px 0px;
+  background-color: burlywood;
+  justify-self: center;
 }
 
 .header--container {
@@ -14,20 +16,34 @@ body {
   align-items: center;
   gap: 20px;
 
-  width: 94%;
-  min-height: 7vh;
-  margin: 20px 40px 0px 24px;
+  min-height: 9vh;
+  margin: 5px 5px 0px 5px;
   padding: 4px 4px 4px 4px;
 
-  border-top-right-radius: 17px;
-  border-top-left-radius: 17px;
+  border-top-right-radius: 22px;
+  border-top-left-radius: 22px;
   margin-bottom: 10px;
 }
 
+.headerbox {
+  justify-self: stretch;
+}
+
+.appbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 22px;
+  background-color: white;
+  margin: 20px 40px 0px 20px;
+  padding: 4px 4px 4px 4px;
+}
+
 .app--container {
-  background-color: whitesmoke;
+  background-color: burlywood;
   min-height: 100vh;
   width: 100%;
+  margin-top: 10px;
 }
 
 .header--title {
@@ -45,9 +61,11 @@ body {
 .cardbox {
   display: flex;
   align-items: start;
-  margin-left: 47px;
-  margin-top: 80px;
+  margin-left: 50px;
+  margin-top: 78px;
+  max-width: 88%;
   gap: 47px;
+  /* background-color: aqua; */
 }
 
 .locationbox {

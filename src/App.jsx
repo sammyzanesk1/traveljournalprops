@@ -11,8 +11,10 @@ export default function App() {
   return (
     <>
       <div className="app--container">
-        <Header />
-        {PropedCard}
+        <div className="appbox">
+          <Header />
+          {PropedCard}
+        </div>
       </div>
     </>
   );
